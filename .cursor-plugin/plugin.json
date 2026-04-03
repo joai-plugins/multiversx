@@ -1,0 +1,10 @@
+{
+  "name": "joai-multiversx",
+  "version": "0.1.0",
+  "description": "Connect MultiversX to Claude, Codex, and ChatGPT. Check balances, view transactions, manage staking, and interact with ESDT tokens through natural language.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/multiversx"
+}
