@@ -1,0 +1,38 @@
+{
+  "name": "joai-multiversx",
+  "version": "0.3.0",
+  "description": "Connect MultiversX to Claude, Codex, and ChatGPT. Check balances, view transactions, manage staking, and interact with ESDT tokens through natural language.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/multiversx",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "multiversx"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MultiversX by JoAi",
+    "shortDescription": "Connect MultiversX to Claude, Codex, and ChatGPT. Check balances, view transactions, manage staking, and interact with ESDT tokens through natural language.",
+    "longDescription": "MultiversX, the EGLD network, is a distributed blockchain network for next-gen applications. Decentralized via 3,000+ nodes, scalable through sharding, fast, secure & green.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/multiversx",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "What is the EGLD balance of erd1...?",
+      "Show my staking delegations.",
+      "View details for token WEGLD-bd4d79."
+    ]
+  }
+}
