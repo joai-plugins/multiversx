@@ -1,0 +1,18 @@
+interface:
+  display_name: "MultiversX"
+  short_description: "Connect MultiversX to Claude, Codex, and ChatGPT. Check balances, view transactions, manage staking, and interact with ESDT tokens through natural language."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/chains/logos/multiversx.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/chains/logos/multiversx.svg"
+  brand_color: "#22F7DD"
+  default_prompt: "What is the EGLD balance of erd1...?"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-multiversx"
+      description: "MultiversX MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/multiversx"
